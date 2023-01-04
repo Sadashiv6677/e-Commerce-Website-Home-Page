@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Dream store | Enjaay tour</title>
+	<link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+	*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+.navbar{
+	display: flex;
+	align-items: center;
+	padding: 20px;
+}
+nav{
+	flex: 1;
+	text-align: right;
+}
+nav ul{
+	display: inline-block;
+	list-style-type: none;
+}
+nav ul li{
+	display: inline-block;
+	padding: 20px;
+}
+a{
+	text-decoration: none;
+	color: #555;
+}
+p{
+	color: #555
+}
+.container{
+	max-width: 1300px;
+	margin: auto;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+.row{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.col-2{
+	flex-basis: 50%;
+	min-width: 300px
+}
+.col-2 img{
+	object-fit: cover;
+}
+.col-2 h1{
+	font-size: 50px;
+	margin: 25px 0;
+	line-height: 60px;
+}
+.btn{
+	display: inline-block;
+	background: blue;
+	color: #fff;
+	padding: 8px 30px;
+	margin: 30px 0;
+	border-radius: 30px;
+	transition: background 0.5s
+}
+.btn:hover{
+	background:#563434;
+}
+
+.header{
+	background:radial-gradient(#fff 80%,#ffd6d6);
+}
+.header .row{
+	margin-top: 70px;
+}
+.categories{
+	margin: 70px 0;
+}
+.col-3{
+	flex-basis: 30%;
+	min-width: 250px;
+	margin-bottom: 30px;
+}
+.col-3 img{
+	width: 100%;
+	object-fit: cover;
+}
+.small-container{
+	max-width: 1080px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px
+}
+.col-4{
+	flex-basis: 25%;
+	min-width: 200px;
+	padding: 10px;
+	margin-bottom: 50px;
+	transition: transform 0.5s
+}
+.col-4 img{
+	width: 100%;
+	object-fit: cover;
+}
+.title{
+	text-align: center;
+	color: #555;
+	margin-bottom: 60px;
+}
+h4{
+	color: #555;
+	font-weight: normal;
+}
+.col-4 p{
+	font-size: 14px;
+}
+.rating .fa{
+	color: #ff523b;
+}
+.col-4:hover{
+	transform: translateY(-5px);
+}
+.small-container{
+	
+}
+.offer{
+	margin-top: 80px;
+	padding: 30px 0;
+	background:radial-gradient(#fff 50%,#ffd6d6);
+}
+.col-2 .offer-img{
+	padding: 50px;
+}
+small{
+	color: #555;
+}
+.brands{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.col-5{
+	padding: 0 20px;
+}
+.col-5 img{
+	cursor: pointer;
+}
+.footer{
+	background: #000;
+	color:#8a8a8a;
+	font-size: 14px;
+	padding: 60px 0 20px;
+}
+.footer p{
+    color:#8a8a8a;
+}
+.footer h3{
+	color: #fff;
+	padding-bottom: 20px;
+}
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+	min-width: 250px;
+	margin-bottom: 20px;
+}
+.footer-col-1{
+	flex-basis: 30%;
+}
+.footer-col-2{
+	flex: 1;
+	text-align: center;
+	padding: 0 10px;
+}
+.footer-col-2 img{
+	margin-bottom: 20px;
+}
+.footer-col-3, .footer-col-4{
+	flex-basis: 12%;
+	text-align: center;
+}
+ul{
+	list-style-type: none;
+}
+.app-logo{
+	margin-top: 20px;
+}
+.app-logo img{
+	width: 100px;
+}
+.footer hr{
+	border:none;
+	background: #b5b5b5;
+	height: 1px;
+	margin: 20px 0;
+}
+.copyright{
+	text-align: center;
+}
+
+	</style>
+
+
+
+</head>
+<body>
+	<div class="header">
+	<div class="container">
+		<div class="navbar">
+    	<div class="logo">
+    		<img src="images/logo.jpg" width="140px">
+    	</div>
+    	<nav>
+    		<ul>
+    			<li><a href="">Home</a></li>
+    			<li><a href="">Products</a></li>
+    			<li><a href="">About</a></li>
+    			<li><a href="">Contact</a></li>
+    			<li><a href="">Account</a></li>
+    		</ul>
+    	</nav>
+    	<img src="images/cart.png" width="30px" height="30px">
+    </div>
+    	<div class="row">
+    		<div class="col-2">
+
+    			<h1>Give Your Workout<br> New Style!</h1>
+    			<p>Success isn't always about greatness. It's about consistency. Consistent<br> hard work gains success. 
+    			Greatness will come.</p>
+    			<a href="" class="btn">Explore Now &#8594;</a>
+    		</div>
+    		<div class="col-2">
+    			<img src="images/111.webp" width="500px" height="500px">
+    		</div>
+    		
+    	</div>
+    </div>
+    </div>
+    <!------featured categories------>
+    <div class="categories">
+    	<div class="small-container">
+    		<div class="row">
+    			<div class="col-3">
+    				<img src="images/hoodie.jpg" width="300px" height="300px">
+    			</div>
+    			<div class="col-3">
+    				<img src="images/watch.webp" width="300px" height="300px" >
+    			</div>
+    			<div class="col-3">
+    				<img src="images/categories2.webp" width="300px" height="300px" >
+    			</div>
+    		</div>
+    	</div>
+    </div>
+    <!------featured products------>
+    <div class="small-container">
+    	<div class="title">
+    	<h2>Featured Products</h2>
+    	</div>
+    	<div class="row">
+    		<div class="col-4">
+    			<img src="images/mens sports tshirt.webp" width="200px" height="300px">
+    			<h4>Black sports T-shirt</h4>
+    			<div class="rating">
+    				<i class="fa fa-star"></i>
+    			    <i class="fa fa-star"></i>
+    			    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+    			</div>
+    			<p>Rs 899.00</p>
+    		</div>
+    		<div class="col-4">
+    			<img src="images/nike-shoes.webp" width="200px" height="300px">
+    			<h4>Nike sports shoes</h4>
+    			<div class="rating">
+    				<i class="fa fa-star"></i>
+    			    <i class="fa fa-star"></i>
+    			    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+    			</div>
+    			<p>Rs 1999.00</p>
+    		</div>
+    		<div class="col-4">
+    			<img src="images/women active wear.webp" width="200px" height="300px">
+    			<h4>Women active wear</h4>
+    			<div class="rating">
+    				<i class="fa fa-star"></i>
+    			    <i class="fa fa-star"></i>
+    			    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+    			</div>
+    			<p>Rs 799.00</p>
+    		</div>
+    		<div class="col-4">
+    			<img src="images/track pant.jpg" width="200px" height="300px">
+    			<h4>Black track pant</h4>
+    			<div class="rating">
+    				<i class="fa fa-star"></i>
+    			    <i class="fa fa-star"></i>
+    			    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+    			</div>
+    			<p>Rs 1299.00</p>
+    		</div>
+    	</div>
+    	<div class="title">
+    	<h2>Latest Products</h2>
+    	</div>
+    	<div class="row">
+    		<div class="col-4">
+    			<img src="images/product1.webp" width="200px" height="300px">
+    			<h4>Pink unisex T-shirt</h4>
+    			<div class="rating">
+    				<i class="fa fa-star"></i>
+    			    <i class="fa fa-star"></i>
+    			    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+    			</div>
+    			<p>Rs 599.00</p>
+    		</div>
+    		<div class="col-4">
+    			<img src="images/product2.jpg" width="200px" height="300px">
+    			<h4>Ankle socks</h4>
+    			<div class="rating">
+    				<i class="fa fa-star"></i>
+    			    <i class="fa fa-star"></i>
+    			    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+    			</div>
+    			<p>Rs 199.00</p>
+    		</div>
+    		<div class="col-4">
+    			<img src="images/product3.webp" width="200px" height="300px">
+    			<h4>Adidas walking shoes</h4>
+    			<div class="rating">
+    				<i class="fa fa-star"></i>
+    			    <i class="fa fa-star"></i>
+    			    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+    			</div>
+    			<p>Rs 1499.00</p>
+    		</div>
+    		<div class="col-4">
+    			<img src="images/product4.webp" width="200px" height="300px">
+    			<h4>Smart watch</h4>
+    			<div class="rating">
+    				<i class="fa fa-star"></i>
+    			    <i class="fa fa-star"></i>
+    			    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+    			</div>
+    			<p>Rs 1899.00</p>
+    		</div>
+    		<div class="col-4">
+    			<img src="images/product5.jpg" width="200px" height="300px">
+    			<h4>Women baseball jacket</h4>
+    			<div class="rating">
+    				<i class="fa fa-star"></i>
+    			    <i class="fa fa-star"></i>
+    			    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+    			</div>
+    			<p>Rs 1199.00</p>
+    		</div>
+    		<div class="col-4">
+    			<img src="images/product7.jpg" width="200px" height="300px">
+    			<h4>Men canvas shoes</h4>
+    			<div class="rating">
+    				<i class="fa fa-star"></i>
+    			    <i class="fa fa-star"></i>
+    			    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+    			</div>
+    			<p>Rs 1599.00</p>
+    		</div>
+    		<div class="col-4">
+    			<img src="images/product6.png" width="200px" height="300px">
+    			<h4>Women track pant</h4>
+    			<div class="rating">
+    				<i class="fa fa-star"></i>
+    			    <i class="fa fa-star"></i>
+    			    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+    			</div>
+    			<p>Rs 899.00</p>
+    		</div>
+    		<div class="col-4">
+    			<img src="images/product8.jpg" width="200px" height="300px">
+    			<h4>New under armour mask</h4>
+    			<div class="rating">
+    				<i class="fa fa-star"></i>
+    			    <i class="fa fa-star"></i>
+    			    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+    			</div>
+    			<p>Rs 299.00</p>
+    		</div>
+    	</div>
+    </div>
+    <!------offers------>
+    <div class="offer">
+    	<div class="small-container">
+    		<div class="row">
+    			<div class="col-2">
+    				<img src="images/product11.webp" class="offer-img" >
+    			</div>
+    			<div class="col-2">
+    				<p>Exclusively Availavle on dream store</p>
+    				<h1>Smart Band</h1>
+    			    <small>>This Mi Smart band has aside from tracking the basic health patterns, you will also get call and message features with reminders.</small>
+    			    <a href="" class="btn">Buy Now &#8594;</a>
+    			   
+    			</div>
+    		</div>
+    	</div>
+    </div>
+    <!-----brand logos------>
+    <div class="brands">
+    	<div class="small-container">
+    		<div class="row">
+    			<div class="col-5">
+    				<img src="images/brand1.webp" width="150px" height="150px">
+    			</div>
+    			<div class="col-5">
+    				<img src="images/brand2.jpg" width="100px" height="100px">
+    			</div>
+    			<div class="col-5">
+    				<img src="images/brand3.png"width="100px" height="100px">
+    			</div>
+    			<div class="col-5">
+    				<img src="images/brand4.png" width="150px" height="150px">
+    			</div>
+    			<div class="col-5">
+    				<img src="images/brand5.jpg" width="150px" height="150px">
+    			</div>
+    		</div>
+    	</div>
+    </div>
+    <!-----footer----->
+    <div class="footer">
+    	<div class="container">
+    		<div class="row">
+    			<div class="footer-col-1">
+    				<h3>Download our app</h3>
+    				<p>Download our app for android and ios mobile phone</p>
+    				<div class="app-logo">
+    				<img src="images/googleplay1.jpg">
+    				<img src="images/applestore1.jpg">
+    			</div>
+    			</div>
+    			<div class="footer-col-2">
+    				<img src="images/logo.jpg" width="180px">
+    				<p>Our purpose is to sustainably make the pleasure and benefits of sports accessible to the many</p>
+    			</div>
+    			<div class="footer-col-3">
+    				<h3>Useful Links</h3>
+    				 <ul>
+    				 	<li>Coupons</li>
+    				 	<li>Blog post</li>
+    				 	<li>Return Policy</li>
+    				 	<li>Join Affiliate</li>
+    				 </ul>
+    			</div>
+    				<div class="footer-col-4">
+    				<h3>Follow Us</h3>
+    				 <ul>
+    				 	<li>Instagram</li>
+    				 	<li>Facebook</li>
+    				 	<li>Twitter</li>
+    				 	<li>YouTube</li>
+    				 </ul>
+    			</div>
+    		</div>
+    		<hr>
+    		<p class="copyright">Copyright 2022 - Sadashiv/Dream store</p>
+    	</div>
+    </div>
+</body>
+</html>
